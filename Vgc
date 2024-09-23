@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de discussion pour enseigner - [Ton Nom]">
+    <title>Discussion et Enseignement - [Ton Nom]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .chat-box {
+            margin-top: 20px;
+        }
+        .chat-box textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+        .chat-box button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>[Ton Nom] - Espace de Discussion et Enseignement</h1>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#resources">Ressources</a>
+    <a href="#discussion">Discussion</a>
+</nav>
+
+<section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis [MOHAMED], un passionné d'enseignement dans le domaine de [du coran]. Je propose ici un espace pour enseigner l'alphabet Arabe,la bonne prononciation des sourates, répondre aux questions, et aider à approfondir vos connaissances. </p>
+</section>
+
+<section id="discussion">
+    <h2>Espace de Discussion</h2>
+    <p>Posez vos questions ici et je vous répondrai dès que possible :</p>
+    
+    <div class="chat-box">
+        <textarea placeholder="Écrivez votre message ici..."></textarea>
+        <button>Envoyer</button>
+    </div>
+    
+    <!-- Simuler un chat (tu pourrais intégrer une vraie plateforme plus tard) -->
+    <div class="chat-history">
+        <h3>Historique des discussions</h3>
+        <p><strong>Visiteur :</strong> Bonjour, je voudrais en savoir plus sur [sujet].</p>
+        <p><strong>[Ton Nom] :</strong> Bien sûr, voici quelques explications...</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 [Ton Nom] - Tous droits réservés.
+</footer>
+
+</body>
+</html>
